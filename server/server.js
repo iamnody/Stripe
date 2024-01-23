@@ -89,5 +89,5 @@ if (process.env.MODE === 'pro') {
   })
 }
 
-const PORT = process.env.PORT || 5012
+const PORT = process.env.PORT || 5014
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
